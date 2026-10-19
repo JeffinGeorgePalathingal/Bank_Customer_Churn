@@ -49,20 +49,18 @@ Germany recorded a churn rate of approximately 32.4%, nearly twice the rates ovs
 
 Five classification models were evaluated against a majority-class baseline.
 
-| Model | Accuracy | Precision | Recall | ROC-AUC |
-|---|---:|---:|---:|---:|
-| Baseline | 79.65% | 0.00% | 0.00% | — |
-| Logistic Regression | 80.80% | 58.91% | 18.67% | 0.775 |
-| Random Forest | 86.45% | 78.33% | 46.19% | 0.853 |
-| Tuned Random Forest | 83.45% | 57.98% | 67.81% | 0.865 |
-| XGBoost | 85.35% | 69.26% | 50.37% | 0.833 |
-| Tuned XGBoost | 83.15% | 56.89% | 71.01% | 0.871 |
+| Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Baseline | 79.65% | 0.00% | 0.00% | 0.00% | — |
+| Logistic Regression | 80.80% | 58.91% | 18.67% | 28.36% | 0.775 |
+| Random Forest | 86.45% | 78.33% | 46.19% | 58.11% | 0.853 |
+| Tuned Random Forest | 83.45% | 57.98% | 67.81% | 62.51% | 0.865 |
+| XGBoost | 85.35% | 69.26% | 50.37% | 58.32% | 0.833 |
+| Tuned XGBoost | 83.15% | 56.89% | 71.01% | 63.17% | 0.871 |
 
 Tuned XGBoost achieved the highest recall (71.01%) and ROC-AUC (0.871), while the untuned Random Forest achieved the highest accuracy (86.45%) and precision (78.33%).
 
-The results demonstrate the trade-off between identifying more customers at risk of leaving and limiting unnecessary retention outreach.
-
-![Model Comparison](images/model_comparison.png)
+The results demonstrate the trade-off between identifying more customers at risk of leaving and limiting false-positive predictions. The preferred model depends on the bank's priorities and the cost of missed churners versus unnecessary retention outreach. 
 
 ## Model Interpretability
 
