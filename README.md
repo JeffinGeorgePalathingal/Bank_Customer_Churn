@@ -1,17 +1,16 @@
 # Bank Customer Churn Prediction
+An end-to-end project to identify customers at risk of leaving a bank, evaluate churn prediction models, and derive insights to support customer retention strategies.
 
 ## Project Overview
 
-Customer churn occurs when customers stop doing business with a company. Predicting which customers are likely to leave can help banks develop targeted retention strategies.
-
-This project uses exploratory data analysis (EDA) and machine learning to identify factors associated with customer churn and predict customers who may be at risk of leaving.
+This project analyses banking customer data to investigate churn patterns, build classification models, and evaluate how effectively they identify customers who leave.
 
 ## Business Objectives
 
-- Identify customer characteristics associated with churn.
-- Explore patterns in customer demographics, account activity and product holdings.
-- Build and compare machine learning classification models.
-- Identify customers at risk of leaving and recommend potential retention strategies.
+- Explore characteristics of customers with higher churn rates. 
+- Compare classification models using accuracy, precision, recall and ROC-AUC.
+- Investe the customer characteristics associated with model predictions of high churn risk. 
+- Use these findings to develop customer retention recommendations. 
 
 ## Dataset
 
