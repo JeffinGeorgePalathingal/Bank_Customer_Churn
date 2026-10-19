@@ -35,13 +35,13 @@ Approximately 20.37% of customers in this dataset had exited.
 
 ### 1. Churn Patterns by Age
 
-Customers aged 50–59 recorded the highest churn rate at 56.04%. This suggests that age-related differences in customer needs and experiences warrant further investigation.
+Customers aged 50–59 recorded the highest churn rate at 56.04% significantly higher than other age groups. This suggests that age-related differences in customer needs and experiences require further investigation.
 
 ![Churn Rate by Age Group](images/age_churn.png)
 
 ### 2. Geographic Differences
 
-Germany recorded a substantially higher churn rate than France and Spain. Further investigation into customer experience, service accessibility and product suitability could help explain this difference.
+Germany recorded a churn rate of approximately 32.4%, nearly twice the rates ovserved in France and Spain. This suggests a need to investigate differences in customer experience, service accessibility and product suitability in the German market.
 
 ![Churn Rate by Geography](images/geography_churn.png)
 
