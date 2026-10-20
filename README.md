@@ -76,12 +76,12 @@ The SHAP summary plot illustrates how individual feature values influence the mo
 
 ## Business Recommendations
 
-- **Customer engagement:** Investigate why inactive customers have higher churn rates and develop targeted re-engagement initiatives.
-- **Customer needs:** Review the needs of customers in age groups with elevated churn rates.
-- **Product suitability:** Investigate the unusually high churn rates among customers holding three or four products, noting that these groups contain relatively few observations.
-- **Geographic differences:** Examine customer feedback, service accessibility and product suitability in Germany.
-- **Retention effectiveness:** Pilot targeted retention campaigns and measure their impact against a suitable control group.
-
+- **Re-engaging Inactive Customers:** Contact inactive customers through personalised emails or relationship-manager calls to identify service difficulties and changing needs. Offer reelevant support and request feedback to address concernss before customers leave. 
+- **Digital Support for Older Customers:** Offer customers aged 50-59 proactive relationship reviews, digital banking workshops and one-to-one guidance. Provide accessible support through phone and branch channels for customers who prefer traditional banking services. 
+- **Product suitability:** Offer customers holding three or four products a personalised account review to assess whether their product combinations, fees and account-management arrangements remain suitable. Recommend adjustments where appropriate, treating this as a targeted initiative given the small number of customers in these groups. 
+- **Improving customer retention in Germany:** Develop a Germany-focussed retention plan using customer feedback and complaint trends to identify service improvements. Tailor customer support and product communication to address the issues identified. 
+- **Measuring Retention Campaign Effectiveness:** Start targeted retention campaigns against a suitable control group. Measure changes in churn, customer response, campaign costs and the value of customers retained before expanding successful initiatives.
+  
 ## Limitations
 
 - The dataset shows associations with churn but does not establish causation.
