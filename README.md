@@ -90,7 +90,7 @@ The SHAP summary plot illustrates how individual feature values influence the mo
 
 ## Tools and Technologies
 
-Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost · SHAP · Jupyter Notebook
+Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost · SHAP
 
 ## How to Run
 
@@ -102,6 +102,6 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost ·
    ```
 
 3. Open `notebooks/Project_Notebook.ipynb` in Jupyter Notebook or Google Colab.
-4. Run the notebook cells in sequence.
+4. Run the notebook cells.
 
 The notebook loads the dataset directly from this repository.
