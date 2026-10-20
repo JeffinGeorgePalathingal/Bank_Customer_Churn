@@ -62,11 +62,15 @@ Tuned XGBoost achieved the highest recall (71.01%) and ROC-AUC (0.871), while th
 
 The results demonstrate the trade-off between identifying more customers at risk of leaving and limiting false-positive predictions. The preferred model depends on the bank's priorities and the cost of missed churners versus unnecessary retention outreach. 
 
-## Model Interpretability
+## Key Predictors of customer churn. 
 
-Feature importance and SHAP analysis highlighted the number of products held, age, active-member status and German geography as important predictive variables.
-
-The SHAP summary plot illustrates how different feature values influence the model's predictions.
+SHAP analysis identified the following features as the most influential in the model's predictions.
+ - Age
+ - Number of products held
+ - Active-member status
+ - Customers in Germany
+   
+The SHAP summary plot illustrates how individual feature values influence the model's predictions. This gives an idea why customers receive different churn-risk predictions. 
 
 ![SHAP Summary Plot](images/SHAP.png)
 
