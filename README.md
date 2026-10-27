@@ -14,7 +14,7 @@ This project analyses banking customer data to investigate churn patterns, build
 
 ## Dataset
 
-The dataset contains **10,000 customer records** across France, Germany and Spain. It includes customer demographic, credit scores, account  balances, product holdings, account acgtivity and estimated salary.
+The dataset contains **10,000 customer records** across France, Germany and Spain. It includes customer demographic information, credit scores, account  balances, product holdings, account activity and estimated salary.
 
 The target variable is `Exited`:
 
@@ -41,7 +41,7 @@ Customers aged 50–59 recorded the highest churn rate at 56.04% significantly h
 
 ### 2. Geographic Differences
 
-Germany recorded a churn rate of approximately 32.4%, nearly twice the rates ovserved in France and Spain. This suggests a need to investigate differences in customer experience, service accessibility and product suitability in the German market.
+Germany recorded a churn rate of approximately 32.4%, nearly twice the rates observed in France and Spain. This suggests a need to investigate differences in customer experience, service accessibility and product suitability in the German market.
 
 ![Churn Rate by Geography](images/geography_churn.png)
 
@@ -62,7 +62,7 @@ Tuned XGBoost achieved the highest recall (71.01%) and ROC-AUC (0.871), while th
 
 The results demonstrate the trade-off between identifying more customers at risk of leaving and limiting false-positive predictions. The preferred model depends on the bank's priorities and the cost of missed churners versus unnecessary retention outreach. 
 
-## Key Predictors of customer churn. 
+## Key Predictors of Customer Churn. 
 
 SHAP analysis identified the following features as the most influential in the model's predictions.
  - Age
@@ -76,10 +76,10 @@ The SHAP summary plot illustrates how individual feature values influence the mo
 
 ## Business Recommendations
 
-- **Re-engaging Inactive Customers:** Contact inactive customers through personalised emails or relationship-manager calls to identify service difficulties and changing needs. Offer reelevant support and request feedback to address concernss before customers leave. 
+- **Re-engaging Inactive Customers:** Contact inactive customers through personalised emails or relationship-manager calls to identify service difficulties and changing needs. Offer relevant support and request feedback to address concerns before customers leave. 
 - **Digital Support for Older Customers:** Offer customers aged 50-59 proactive relationship reviews, digital banking workshops and one-to-one guidance. Provide accessible support through phone and branch channels for customers who prefer traditional banking services. 
 - **Product suitability:** Offer customers holding three or four products a personalised account review to assess whether their product combinations, fees and account-management arrangements remain suitable. Recommend adjustments where appropriate, treating this as a targeted initiative given the small number of customers in these groups. 
-- **Improving customer retention in Germany:** Develop a Germany-focussed retention plan using customer feedback and complaint trends to identify service improvements. Tailor customer support and product communication to address the issues identified. 
+- **Improving customer retention in Germany:** Develop a Germany-focused retention plan using customer feedback and complaint trends to identify service improvements. Tailor customer support and product communication to address the issues identified. 
 - **Measuring Retention Campaign Effectiveness:** Start targeted retention campaigns against a suitable control group. Measure changes in churn, customer response, campaign costs and the value of customers retained before expanding successful initiatives.
   
 ## Limitations
