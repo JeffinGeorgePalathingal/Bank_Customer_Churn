@@ -9,7 +9,7 @@ This project analyses banking customer data to investigate churn patterns, build
 
 - Explore characteristics of customers with higher churn rates. 
 - Compare classification models using accuracy, precision, recall and ROC-AUC.
-- Investe the customer characteristics associated with model predictions of high churn risk. 
+- Investigate the customer characteristics associated with model predictions of high churn risk. 
 - Use these findings to develop customer retention recommendations. 
 
 ## Dataset
